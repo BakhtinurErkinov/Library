@@ -25,6 +25,7 @@ public class Library {
     }
     public void removeBook(int id) {
         books.remove(id);
+        System.out.println("Книга успешно удалена!");
     }
 
 
